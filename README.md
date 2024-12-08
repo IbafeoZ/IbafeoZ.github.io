@@ -80,16 +80,16 @@ if (nok<5) s="НЕУДОВЛЕТВОРИТЕЛЬНО";
  
 with(document.test)
     {
-    if (answ.charAt(0)=="2") {T1.value=" + "} else {T1.value=" - "};
-   if (answ.charAt(1)=="2") {T2.value=" + "} else {T2.value=" - "};
-   if (answ.charAt(2)=="2") {T3.value=" + "} else {T3.value=" - "};
+    if (answ.charAt(0)=="1") {T1.value=" + "} else {T1.value=" - "};
+   if (answ.charAt(1)=="1") {T2.value=" + "} else {T2.value=" - "};
+   if (answ.charAt(2)=="1") {T3.value=" + "} else {T3.value=" - "};
    if (answ.charAt(3)=="1") {T4.value=" + "} else {T4.value=" - "};
-   if (answ.charAt(4)=="2") {T5.value=" + "} else {T5.value=" - "};
+   if (answ.charAt(4)=="1") {T5.value=" + "} else {T5.value=" - "};
    if (answ.charAt(5)=="1") {T6.value=" + "} else {T6.value=" - "};
    if (answ.charAt(6)=="1") {T7.value=" + "} else {T7.value=" - "};
-   if (answ.charAt(7)=="2") {T8.value=" + "} else {T8.value=" - "};
-   if (answ.charAt(8)=="3") {T9.value=" + "} else {T9.value=" - "};
-   if (answ.charAt(9)=="3") {T10.value=" + "} else {T10.value=" - "};
+   if (answ.charAt(7)=="1") {T8.value=" + "} else {T8.value=" - "};
+   if (answ.charAt(8)=="1") {T9.value=" + "} else {T9.value=" - "};
+   if (answ.charAt(9)=="1") {T10.value=" + "} else {T10.value=" - "};
      }
 }
 function showhide(obj){

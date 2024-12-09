@@ -97,7 +97,7 @@ function showhide(obj){
     else return 'none';
 }
 </script>
-<center><b>Тест</b></center><br/><br/>
+<center><b>Тест по первой лекции "Развитие науки Экологии"</b></center><br/><br/>
 &nbsp;&nbsp;&nbsp;<span style="color:#006699;text-decoration:underline;cursor:pointer;" onclick="document.getElementById('instruction').style.display = showhide(document.getElementById('instruction').style.display)">
 Инструкция</span>
  <br/>
